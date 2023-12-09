@@ -8,7 +8,7 @@ export const ProductCustomer = (props) => {
 
   return (
     <div className="productCustomer">
-      <img src={`/src/assets/products/${id_produk}.png`} />
+      <img src={`/products/${id_produk}.png`} />
       <div className="description">
         <p>
           <b>{nama_produk}</b>
